@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: roboto;
+}
+body {
+	height: 100px;
+	background:url(img/ice.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.nav {
+	display: flex;
+	padding: 20px 60px;
+}
+.name {
+	padding: 4px 8px;
+	background: #ff6b6b;
+	border-radius: none;
+	color:  #fff;
+	font-size: 30px;
+
+
+}
+.link {
+	flex: 1;
+}
+.link ul {
+	margin-left: 50px;
+	display: inline;
+}
+.link ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 25px;
+}
+.link ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.But {
+	margin: 2px 0px;
+	padding: 10px 20px;
+	background-color: #ff6b6b;
+	font-weight: normal;
+	border: 8;
+	cursor: pointer;
+}
+.link .But{
+	color: #fff;
+	font-size: 14px;
+	float: right;
+}
+.foot {
+	margin: 190px 60px;
+	color: #fff;
+}
+.foot h1 {
+	font-size: 64px;
+	margin-bottom: 30px;
+}
+.foot h1 span {
+	color: #ff6b6b;
+}
+.foot .But {
+	color: #fff;
+	font-size: 14px;
+	font-weight: normal;
+}
+h2 {
+	color: #fff;
+	text-align: center;
+}
+h2 span {
+	color: #ff6b6b
+	font-size: 40px;
+	font-weight: normal;
+}
